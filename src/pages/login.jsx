@@ -28,7 +28,7 @@ export default function Login() {
     try {
       await api.post("/login", form);
       alert("Login berhasil");
-      navigate("/");
+      navigate("/dashboard");
     } catch (err) {
       console.error(err);
       alert("Username atau password salah");

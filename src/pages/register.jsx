@@ -120,18 +120,25 @@ export default function Register() {
 
           {/* TERMS */}
           <div className="terms">
-            <input type="checkbox" required />
-            <label>
-              Saya setuju dengan{" "}
-              <span
-                className="terms-link"
-                onClick={() => navigate("/terms")}
-              >
-                Syarat & Ketentuan
-              </span>
+          <input type="checkbox" required />
+          <label>
+            Saya setuju dengan{" "}
+            <span
+              className="terms-link"
+              onClick={() => navigate("/terms")}
+            >
+              Syarat & Ketentuan
+            </span>
+            {" "}dan{" "}
+            <span
+              className="terms-link"
+              onClick={() => navigate("/terms")}
+            >
+              kebijakan privasi
+            </span>
             </label>
+            </div>
 
-          </div>
 
           {/* SUBMIT */}
           <button className="btn-submit" type="submit">

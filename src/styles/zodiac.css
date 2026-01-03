@@ -115,4 +115,17 @@
   font-weight: bold;
   cursor: pointer;
   z-index: 999;
+  transition: none;
+}
+
+/* SAAT DI-HOVER TETAP SAMA */
+.customer-service:hover {
+  background: #faff3d;
+  color: #000;
+}
+
+/* ICON */
+.customer-service svg {
+  font-size: 18px;
+  color: #000;
 }
